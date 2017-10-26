@@ -1,0 +1,25 @@
+<section class="content-header">
+  <h1>
+    Aluno
+    <small>Cadastro</small>
+  </h1>
+
+<!-- Main content -->
+<section class="content">
+  <div class="box">
+    <!-- form start -->
+    <p [className]="classMessage" [hidden]="!showMessage" style="padding: 10px">{{message}}</p>
+    <form (ngSubmit)="onSalvar()" #f="ngForm">
+      <div class="box-body">
+        <div class="form-group">
+          <label for="inputNome">Nome</label>
+          <input type="text" class="form-control" required id="inputNome" [(ngModel)]="itemEdit.name" 
+              name="inputNome" placeholder="Nome">
+        </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Salvar</button>
+          </div>         
+      </div>
+    </form>
+  </div>
+</section>

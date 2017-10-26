@@ -1,0 +1,15 @@
+<div class="login-page">
+
+  <div class="container">    
+    <form class="form-signin" (submit)="login($event, usuario.value, senha.value)">      
+      <h2 class="form-signin-heading">Entrar</h2>
+      <p [className]="classMessage" [hidden]="!withErrors" style="padding: 10px">{{message}}</p>  
+      <label for="usuario" class="sr-only">Usuário</label>            
+      <input autofocus type="text" #usuario class="form-control input-lg" required id="usuario" placeholder="Username">            
+      <label for="senha" class="sr-only">Password</label>
+      <input type="password" #senha class="form-control" required id="senha" placeholder="Password">
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Efetuar login</button>
+    </form>
+
+  </div> <!-- /container -->
+</div>
