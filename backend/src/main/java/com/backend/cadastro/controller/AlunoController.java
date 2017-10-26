@@ -1,4 +1,4 @@
-package com.senai.cadastro.controller;
+package com.backend.cadastro.controller;
 
 import java.util.List;
 import java.util.Objects;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.senai.cadastro.model.Aluno;
-import com.senai.cadastro.repository.AlunoRepository;
+import com.backend.cadastro.model.Aluno;
+import com.backend.cadastro.repository.AlunoRepository;
 
 @RestController
 @RequestMapping("/aluno")

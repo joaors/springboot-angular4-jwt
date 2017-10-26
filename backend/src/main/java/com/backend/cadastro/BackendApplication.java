@@ -1,12 +1,12 @@
-package com.senai.cadastro;
+package com.backend.cadastro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SenaiApplication {
+public class BackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SenaiApplication.class, args);
+		SpringApplication.run(BackendApplication.class, args);
 	}
 }

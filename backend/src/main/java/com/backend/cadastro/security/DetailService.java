@@ -1,4 +1,4 @@
-package com.senai.cadastro.security;
+package com.backend.cadastro.security;
 
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,8 +11,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.senai.cadastro.model.Usuario;
-import com.senai.cadastro.repository.UsuarioRepository;
+import com.backend.cadastro.model.Usuario;
+import com.backend.cadastro.repository.UsuarioRepository;
 
 @Service
 public class DetailService implements UserDetailsService {

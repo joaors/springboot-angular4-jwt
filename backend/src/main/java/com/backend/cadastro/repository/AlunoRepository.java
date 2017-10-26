@@ -1,9 +1,9 @@
-package com.senai.cadastro.repository;
+package com.backend.cadastro.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.senai.cadastro.model.Aluno;
+import com.backend.cadastro.model.Aluno;
 
 @Repository
 public interface AlunoRepository extends JpaRepository<Aluno, Long>{

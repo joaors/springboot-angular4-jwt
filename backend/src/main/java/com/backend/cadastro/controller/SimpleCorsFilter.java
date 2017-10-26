@@ -1,4 +1,4 @@
-package com.senai.cadastro.controller;
+package com.backend.cadastro.controller;
 
 import java.io.IOException;
 

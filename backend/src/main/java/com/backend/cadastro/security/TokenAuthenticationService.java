@@ -1,4 +1,4 @@
-package com.senai.cadastro.security;
+package com.backend.cadastro.security;
 
 import java.util.Collections;
 import java.util.Date;

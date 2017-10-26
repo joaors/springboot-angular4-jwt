@@ -1,4 +1,4 @@
-package com.senai.cadastro.model;
+package com.backend.cadastro.model;
 
 import java.io.Serializable;
 
